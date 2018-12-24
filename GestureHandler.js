@@ -11,11 +11,11 @@ import {
   ToolbarAndroid,
   ViewPagerAndroid,
   DrawerLayoutAndroid,
-  WebView,
   StyleSheet,
   FlatList,
   Platform,
 } from 'react-native';
+import { WebView } from "react-native-webview";
 import processColor from 'react-native/Libraries/StyleSheet/processColor';
 import Touchable from 'react-native/Libraries/Components/Touchable/Touchable';
 import deepEqual from 'fbjs/lib/areEqual';
